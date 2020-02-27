@@ -2301,7 +2301,7 @@ ul {
 
   /* line 34, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_menu.scss */
   .main_menu .main-menu-item ul li .nav-link {
-    color: #0042ff;
+    color: #00fff2;
   }
 }
 
@@ -2334,7 +2334,10 @@ ul {
 /* line 61, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link:hover:before {
   width: 50px;
+  background-color: tomato;
 }
+
+
 
 /* line 66, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_menu.scss */
 .main_menu .main-menu-item ul .btn_1 {
@@ -2787,6 +2790,36 @@ ul {
   .our_service .single_service {
     padding: 25px;
     margin-top: 25px;
+  }
+}
+
+@media (max-width: 591px) {
+
+  #home-h1 {
+    margin-top: 12px;
+    font-size: 28px;
+  }
+
+  #home {
+    margin-top: -50px;
+    height: 735px;
+    margin-bottom: -230px;
+
+  }
+
+  #navR {
+    margin-top: 12px;
+  }
+
+  .home_menu {
+
+    background-color: rgba(82, 245, 237, .5);
+    height: 120px;
+  }
+
+  #h1 {
+    font-size: 18px;
+
   }
 }
 
